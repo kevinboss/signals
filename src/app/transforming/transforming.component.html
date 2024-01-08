@@ -1,0 +1,6 @@
+<p>Observable value: {{ value$ | async }}</p>
+<p>Observable even: {{ isEven$ | async }}</p>
+<p>Signal value: {{ value() }}</p>
+<p>Signal even: {{ isEven() }}</p>
+
+<button (click)="update()">Update</button>
