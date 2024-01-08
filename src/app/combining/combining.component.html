@@ -1,0 +1,9 @@
+<div>
+  <input type="text" [formControl]="filterControl">
+</div>
+
+<br/>
+<b>Observable states</b>
+<div *ngFor="let state of filteredStates$ | async">
+  {{ state }}
+</div>
